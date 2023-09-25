@@ -17,7 +17,7 @@ Feature: Product Buying
     Then Go back to Product view page
     Examples:
       |NegativeQuantity|Price|Quantities|negative_total|
-      |-2              |Rs. 500  |-2        |Rs. -1000 |
+      |-2              |500  |-2        |-1000 |
 
   Scenario Outline: Positive Product check
     Given Go to the Product again
