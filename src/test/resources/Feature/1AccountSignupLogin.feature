@@ -13,7 +13,7 @@ Feature: Online Shopping Initializations sign up and login
     And logout
     Examples:
       |Name|email    |Password|FirstName|LastName|Company|Address|Address 2|State|City|ZipCode|MobileNumber|
-      |Anik|888k@g.com|123456  |SAnik    |Rahman  |XYZ    |Mirpur |Home no 2 |DOSH|Dhaka|1206  |017111111111|
+      |Anik|123k@g.com|123456  |SAnik    |Rahman  |XYZ    |Mirpur |Home no 2 |DOSH|Dhaka|1206  |017111111111|
 
   Scenario Outline: Incorrect log in Check
     Given Showing the login Page
@@ -31,4 +31,4 @@ Feature: Online Shopping Initializations sign up and login
       Then Log in
       Examples:
         |Email      |password|
-        |888k@g.com |123456|
+        |123k@g.com |123456|
